@@ -18,11 +18,9 @@ return new class extends Migration
             $table->string('title', 200)->unique();
             $table->string('slug', 200)->unique();
             $table->string('author_id')->nullable();
-            // $table->string('image_path')->nullable();
             $table->text('body');
             $table->boolean('is_root_page')->nullable()->unique();
             $table->boolean('is_published')->default(0);
-            // $table->dateTime('first_published_at')->nullable();
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('users')

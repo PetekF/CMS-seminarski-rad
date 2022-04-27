@@ -55,19 +55,27 @@ class DatabaseSeeder extends Seeder
         ]);
 
         \App\Models\User::factory()
-            ->count(3)
-            ->state(new Sequence(
-                ['id' => $authorOneId],
-                ['id' => $authorTwoId],
-                ['id' => $authorThreeId]
-            ))
-            ->create(['role_id' => $authorRoleId]);
+            ->count(1)
+            ->create(['role_id' => $authorRoleId, 'id' => $authorOneId]);
 
-        \App\Models\Page::factory()->count(1)->create(['author_id' => $adminId]);
 
-        \App\Models\Page::factory()->count(2)->create(['author_id' => $authorOneId]);
+        DB::table('pages')->insert([
+            'id' => Str::uuid(),
+            'title' => "Naslovnica",
+            'slug' => "naslovnica",
+            'author_id' => $adminId,
+            'body' => "<h1>Naslovnica</h1><br/><p>Ako vidite ovu stranicu znači da aplikacija dobro funkcionira.</p>
+                        <p>Ova stranica može se urediti unutar CMS-a. Pristupni podatci su sljedeći:</p>
+                        <ul><li>Korisničko ime: admin</li><li>Lozinka: admin</li><li>url: /login</li></ul>",
+            'is_published' => 1,
+            'is_root_page' => 1
+        ]);
 
-        \App\Models\Page::factory()->count(1)->create(['author_id' => $authorTwoId]);
+        DB::table('navigation')->insert([
+            'id' => Str::uuid(),
+            'name' => "Naslovnica",
+            'href' => "/naslovnica"
+        ]);
 
     }
 }

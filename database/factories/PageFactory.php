@@ -25,10 +25,8 @@ class PageFactory extends Factory
             'title' => $title,
             'slug' => Str::slug($title),
             'author_id' => null,
-            'image_path' => '/test/image',
             'body' => $this->faker->text(1000),
             'is_published' => 0,
-            'first_published_at' => null
         ];
     }
 }
