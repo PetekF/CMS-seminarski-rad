@@ -1,0 +1,17 @@
+"filename", "language", "PHP", "comment", "blank", "total"
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Constants.php", "PHP", 1, 2, 4, 7
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\Api\ImageController.php", "PHP", 37, 0, 9, 46
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\Controller.php", "PHP", 0, 0, 1, 1
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\NavigationController.php", "PHP", 41, 0, 23, 64
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\PageController.php", "PHP", 140, 48, 34, 222
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\RegistrationController.php", "PHP", -32, -11, -14, -57
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\RoleController.php", "PHP", 99, 43, 26, 168
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\UserController.php", "PHP", 11, 0, 0, 11
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Navigation.php", "PHP", 39, 0, 18, 57
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Page.php", "PHP", 101, 6, 32, 139
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Role.php", "PHP", 60, 12, 19, 91
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\User.php", "PHP", 16, 6, 6, 28
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\PagesTable.php", "PHP", 26, 11, 10, 47
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\RolesTable.php", "PHP", 31, 18, 16, 65
+"c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\UsersTable.php", "PHP", -5, 3, -3, -5
+"Total", "-", 565, 138, 181, 884

@@ -15,6 +15,6 @@ namespace App\Http\Controllers;
 class DashboardController {
     
     public function index(){
-        return view("dashboard");
+        return view("cms.dashboard", ['current_nav_page' => 'dashboard']);
     }
 }

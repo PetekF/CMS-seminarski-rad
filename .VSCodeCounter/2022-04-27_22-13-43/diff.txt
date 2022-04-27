@@ -1,0 +1,45 @@
+Date : 2022-04-27 22:13:43
+Directory : c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app
+Total : 15 files,  565 codes, 138 comments, 181 blanks, all 884 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| PHP      |         15 |        565 |        138 |        181 |        884 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         15 |        565 |        138 |        181 |        884 |
+| Http                                                                                                    |          7 |        296 |         80 |         79 |        455 |
+| Http\Controllers                                                                                        |          7 |        296 |         80 |         79 |        455 |
+| Http\Controllers\Api                                                                                    |          1 |         37 |          0 |          9 |         46 |
+| Models                                                                                                  |          4 |        216 |         24 |         75 |        315 |
+| View                                                                                                    |          3 |         52 |         32 |         23 |        107 |
+| View\Components                                                                                         |          3 |         52 |         32 |         23 |        107 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Constants.php                               | PHP      |          1 |          2 |          4 |          7 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\Api\ImageController.php    | PHP      |         37 |          0 |          9 |         46 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\Controller.php             | PHP      |          0 |          0 |          1 |          1 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\NavigationController.php   | PHP      |         41 |          0 |         23 |         64 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\PageController.php         | PHP      |        140 |         48 |         34 |        222 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\RegistrationController.php | PHP      |        -32 |        -11 |        -14 |        -57 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\RoleController.php         | PHP      |         99 |         43 |         26 |        168 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Http\Controllers\UserController.php         | PHP      |         11 |          0 |          0 |         11 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Navigation.php                       | PHP      |         39 |          0 |         18 |         57 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Page.php                             | PHP      |        101 |          6 |         32 |        139 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\Role.php                             | PHP      |         60 |         12 |         19 |         91 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\Models\User.php                             | PHP      |         16 |          6 |          6 |         28 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\PagesTable.php              | PHP      |         26 |         11 |         10 |         47 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\RolesTable.php              | PHP      |         31 |         18 |         16 |         65 |
+| c:\Users\Filip\Shared\ubunter\Netbeans\php-projects\CMS\app\View\Components\UsersTable.php              | PHP      |         -5 |          3 |         -3 |         -5 |
+| Total                                                                                                   |          |        565 |        138 |        181 |        884 |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
