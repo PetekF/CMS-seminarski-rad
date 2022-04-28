@@ -32,7 +32,18 @@
                         @csrf
                         @method('PATCH')
                         <label for="">{{__('Link(href)')}}: </label>
-                        <input type="text" name="href" placeholder="{{__('Link(href)')}}" class="p-2 border border-black w-full" value="{{ $navigationItem->href }}">
+                        <select name="href" id="href" class="bg-white h-10 w-full border border-black">
+                            @foreach (\App\Models\Page::select('slug')->where('is_published', 1)->get() as $page)
+                                <option value="{{$page->slug}}"
+                                @if ($page->slug === $navigationItem->href)
+                                    selected
+                                @endif
+                                >
+                                /{{$page->slug}}</option>
+                            @endforeach
+                        </select>
+
+
                         <label for="" class="inline-block mt-3">{{__('Name')}}: </label>
                         <input type="text" name="name" placeholder="{{__('Name')}}" class="p-2 border border-black w-full" value="{{ $navigationItem->name }}">
 
@@ -46,13 +57,6 @@
                     </form>
                 </li> 
                 @endforeach
-                {{-- <li class="p-3 bg-white border border-black">
-                    <form action="" method="post">
-                        <input type="text" placeholder="{{__('Link(href)')}}" class="p-2 border border-black w-full">
-                        <input type="text" placeholder="{{__('Name')}}" class="p-2 border border-black w-full mt-2">
-                    </form>
-                </li> --}}
-                
             </ul>
         </div>
         

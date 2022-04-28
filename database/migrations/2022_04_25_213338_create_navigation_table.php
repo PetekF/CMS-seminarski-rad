@@ -19,6 +19,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('href');
             $table->timestamps();
+
+            $table->foreign('href')->references('slug')->on('pages')
+                ->onDelete('cascade');
         });
     }
 

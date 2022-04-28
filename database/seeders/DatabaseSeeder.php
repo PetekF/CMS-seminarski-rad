@@ -74,7 +74,7 @@ class DatabaseSeeder extends Seeder
         DB::table('navigation')->insert([
             'id' => Str::uuid(),
             'name' => "Naslovnica",
-            'href' => "/naslovnica"
+            'href' => "naslovnica"
         ]);
 
     }

@@ -19,6 +19,11 @@ class Navigation extends Model
         'id' => 'string',
     ];
 
+    public function href(){
+        return $this->belongsTo(Page::class);
+    }
+
+
     public function deleteNavigationItem($id): void{
         try{
             Navigation::destroy($id);

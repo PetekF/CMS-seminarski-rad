@@ -17,7 +17,11 @@
 
             <div class="flex items-center justify-between">
                 <label for="href">{{ __('Link(href)') }}</label>
-                <input type="text" name="href" id="href" class="border border-black m-2 h-10 p-3 rounded shadow-inner">
+                <select name="href" id="href" class="bg-white h-10 w-full border border-black m-2">
+                    @foreach (\App\Models\Page::select('slug')->where('is_published', 1)->get() as $page)
+                        <option value="{{$page->slug}}">/{{$page->slug}}</option>
+                    @endforeach
+                </select>
             </div>
             <div class="flex items-center justify-between">
                 <label for="name">{{ __('Name') }}</label>
