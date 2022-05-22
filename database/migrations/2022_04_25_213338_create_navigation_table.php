@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('navigation', function (Blueprint $table) {
-            $table->uuid('id');
+            $table->uuid('id')->primary();
             $table->smallInteger('order')->unsigned()->autoIncrement();
             $table->string('name');
             $table->string('href');
