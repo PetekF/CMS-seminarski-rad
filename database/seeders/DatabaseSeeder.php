@@ -21,8 +21,6 @@ class DatabaseSeeder extends Seeder
     {
         $adminId = Str::uuid();
         $authorOneId = Str::uuid();
-        $authorTwoId = Str::uuid();
-        $authorThreeId = Str::uuid();
         
         $adminRoleId = Str::uuid();
         $authorRoleId = Str::uuid();
@@ -45,7 +43,7 @@ class DatabaseSeeder extends Seeder
             'first_name'        => 'Filip',
             'last_name'         => 'Petek',
             'email'             => 'petekf@outlook.com',
-            'password'          => Hash::make('admin'),
+            'password'          => Hash::make('NovaL0z11$'),
             'role_id'           => $adminRoleId,
             'remember_token'    => null,
             'login_attempts'    => 0,
@@ -66,7 +64,7 @@ class DatabaseSeeder extends Seeder
             'author_id' => $adminId,
             'body' => "<h1>Naslovnica</h1><br/><p>Ako vidite ovu stranicu znači da aplikacija dobro funkcionira.</p>
                         <p>Ova stranica može se urediti unutar CMS-a. Pristupni podatci su sljedeći:</p>
-                        <ul><li>Korisničko ime: admin</li><li>Lozinka: admin</li><li>url: /login</li></ul>",
+                        <ul><li>Korisničko ime: admin</li><li>Lozinka: NovaL0z11$</li><li>url: /login</li></ul>",
             'is_published' => 1,
             'is_root_page' => 1
         ]);
