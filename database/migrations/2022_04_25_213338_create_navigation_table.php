@@ -15,7 +15,6 @@ return new class extends Migration
     {
         Schema::create('navigation', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->smallInteger('order')->unsigned()->autoIncrement();
             $table->string('name');
             $table->string('href');
             $table->timestamps();
